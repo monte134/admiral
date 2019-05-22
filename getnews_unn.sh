@@ -1,4 +1,9 @@
 #!/bin/bash
+### monte134
+### 2019 
+### https://github.com/monte134/getnews
+
+#get
 curl https://www.unn.com.ua --output buf1
 cat buf1 | grep "news_public_*******" >tmp1
 cat tmp1 | grep ":" >tmp2
